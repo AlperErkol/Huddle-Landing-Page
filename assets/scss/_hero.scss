@@ -1,0 +1,119 @@
+.hero{
+
+    &__content{
+
+        &__mockup_img{
+            @media screen and (min-width:1024px){
+                width: 50%;
+            }
+
+            @media screen and (max-width:1023px){
+                width: 75%;
+            }
+            
+
+        }
+
+        &__text{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5.5rem;
+
+            @media screen and (min-width:1024px){
+
+                h1{
+                    font-size: 2.5rem;
+                }
+    
+                p{
+                    
+                    max-width: 35%;
+                    margin-bottom: 2rem;
+                }
+
+            }
+
+            @media screen and (max-width:1023px){
+
+                p{
+                    margin-bottom: 2rem;
+                }
+            }
+
+        }
+
+    }
+
+    &__informations{
+
+        @media screen and (min-width:1024px){
+            padding: 0 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        @media screen and (max-width:1023px){
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+    
+        &_left{
+
+            
+            display: flex;
+            flex-direction: column;
+            
+
+            @media screen and (min-width:1024px){
+                h2{
+                    font-size: 4.5rem;
+                }
+            }
+
+            @media screen and (max-width:1023px){
+
+                margin-bottom: 2rem;
+                align-items: center;
+                h2{
+                    font-size: 2.5rem;
+                }
+                width: 100%;
+            }
+
+        }
+        &_right{
+
+            display: flex;
+            flex-direction: column;
+            
+
+            @media screen and (min-width:1024px){
+                h2{
+                    font-size: 4.5rem;
+                }
+            }
+
+            @media screen and (max-width:1023px){
+                align-items: center;
+                h2{
+                    font-size: 2.5rem;
+                }
+                width: 100%;
+            }
+            
+
+        }
+
+
+    }
+    
+
+}

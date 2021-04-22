@@ -1,0 +1,38 @@
+.header{
+
+        @media screen and (min-width:1024px){
+            margin-bottom: 8.5rem;
+        }
+
+        @media screen and (max-width:1023px){
+            margin-bottom: 1rem;
+        }
+    
+        
+        
+        
+        
+        .navigation{
+    
+            padding: 1rem 0;
+
+            &__logo_img{
+
+                @media screen and (min-width:1024px){
+                    width: 9.372rem;
+                }
+
+                @media screen and (max-width:1023px){
+                    width:7rem;
+                }
+                
+                
+            }
+        
+        }
+    
+    
+    }
+
+
+

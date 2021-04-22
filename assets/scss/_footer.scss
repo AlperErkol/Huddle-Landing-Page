@@ -1,0 +1,217 @@
+.footer{
+
+
+    @media screen and (min-width:1024px){
+
+        p{
+            line-height: 1.5;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+    
+        &__content{
+            
+            display: flex;
+            justify-content: space-between;
+            
+            padding: 5rem 6rem;
+            background-color: $veryDarkCyan;
+            color : $white;
+    
+            &_left{
+                
+                width: 30%;
+                
+    
+                &_text{
+    
+    
+                    &_social{
+    
+                        .fa{
+                            margin-right: 1rem;
+                        }
+                    }
+    
+                    &_phone{
+                        span{
+                            font-size: 0.875rem;
+                            margin-left:0.7rem;
+                        }
+                    }
+    
+                    &_mail{
+                        span{
+                            font-size: 0.875rem;
+                            margin-left:0.7rem;
+                        }
+                    }
+    
+                }
+    
+    
+            }
+            &_right{
+                
+                width: 30%;
+    
+                h3{
+                    font-size: 1.5rem;
+                }
+    
+    
+                &_form{
+                    display: flex;
+                    justify-content: space-between;
+                    
+
+                    .inputArea{
+                        width: 55%;
+                    }
+
+                    .buttonArea{
+                        width:35%;
+                    }
+
+                    input{
+                        width: 100%;
+                        height: 2.2rem;
+                        outline: none;
+                        border:none;
+                        font-family: $openSans;
+                        border-radius: 4px;
+                    }
+    
+                    button{
+                        width:100%;
+                        height: 2.2rem;
+                        background-color: $pink;
+                        color: $white;
+                        font-family: $openSans;
+                        font-weight: 700;
+                        border-radius: 4px;
+                        
+                        
+                    }
+    
+                    button:hover{
+                        cursor: pointer;
+                        background-color: lighten($pink,10);
+                    }
+                }
+                
+            }
+    
+        }
+
+    }
+
+    @media screen and (max-width:1023px){
+
+        p{
+            line-height: 1.5;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+    
+        &__content{
+            
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            
+            padding: 2rem 1rem;
+            background-color: $veryDarkCyan;
+            color : $white;
+    
+            &_left{
+                margin-top: 3rem;
+                
+                width: 100%;
+                
+    
+                &_text{
+    
+    
+                    &_social{
+    
+                        .fa{
+                            margin-right: 1rem;
+                        }
+                    }
+    
+                    &_phone{
+                        span{
+                            font-size: 0.875rem;
+                            margin-left:0.7rem;
+                        }
+                    }
+    
+                    &_mail{
+                        span{
+                            font-size: 0.875rem;
+                            margin-left:0.7rem;
+                        }
+                    }
+    
+                }
+    
+    
+            }
+            &_right{
+                
+                width: 100%;
+    
+                h3{
+                    font-size: 1.5rem;
+                }
+    
+    
+                &_form{
+                    display: flex;
+                    justify-content: space-between;
+                    
+
+                    .inputArea{
+                        width: 55%;
+                    }
+
+                    .buttonArea{
+                        width:35%;
+                    }
+
+                    input{
+                        width: 100%;
+                        height: 2.2rem;
+                        outline: none;
+                        border:none;
+                        font-family: $openSans;
+                        border-radius: 4px;
+                    }
+    
+                    button{
+                        width:100%;
+                        height: 2.2rem;
+                        background-color: $pink;
+                        color: $white;
+                        font-family: $openSans;
+                        font-weight: 700;
+                        border-radius: 4px;
+                        
+                        
+                    }
+    
+                    button:hover{
+                        cursor: pointer;
+                        background-color: lighten($pink,10);
+                    }
+                }
+                
+            }
+    
+        }
+
+    }
+
+
+}

@@ -1,0 +1,72 @@
+@media screen and (min-width:1024px){
+
+    .white_button{
+        width: 9.372rem;
+        padding: 6px;
+    }
+
+
+}
+@media screen and (max-width:1023px){
+
+
+    .white_button{
+        width: 7rem;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+
+    .pink_button{
+
+        padding: 1rem 3.5rem;
+        
+
+    }
+
+
+}
+
+@media screen and (max-width:1023px){
+
+    .pink_button{
+        padding: 1rem 1rem;
+        
+    }
+
+
+
+}
+
+.white_button{
+
+    
+    border: 1px solid $pink;
+    border-radius: 2rem;
+    color:$pink;
+    opacity: 1;
+    transition: all 500ms;
+}
+
+.white_button:hover{
+    opacity: .7;
+}
+
+.pink_button{
+    
+    border: none;
+    background-color: $pink;
+    color:$white;
+    border-radius: 2rem;
+    transition: all 500ms;
+
+}
+
+.pink_button:hover{
+
+    background-color: lighten($pink,10);
+
+}
+
