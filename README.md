@@ -1,5 +1,5 @@
 # Huddle-Landing-Page
-Fully responsive Huddle Landing Page template written in HTML and SCSS and little JS.
+Fully responsive Huddle Landing Page template written in HTML, SCSS and little JS.
 # Demo
 For demo, click [here](https://huddle-landing-page-iota-blue.vercel.app/).
 # Template & Materials
